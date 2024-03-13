@@ -1,0 +1,58 @@
+# Quality of life
+alias la='ls -lAh'
+alias fman='compgen -c | fzf | xargs man'
+alias tm='tmux'
+alias e='exit'
+
+# Vim & NeoVim
+alias v='vim'
+alias nv='nvim'
+
+# Git
+alias lg='lazygit'
+alias gb='git branch'
+alias gba='git branch --all'
+alias gs='git status'
+alias gg='git log'
+alias ggg='git log --graph'
+alias ggo='git log --oneline'
+alias gi='git init'
+alias gca='git commit --amend'
+alias glr='git pull --rebase'
+alias gpr='git pull --rebase'
+alias gpt='git push origin --tags'
+alias gr='git rebase'
+alias gri='git rebase --interactive'
+alias gs='git status'
+alias gcll='g config --list --local'
+alias gcl='g config --local'
+alias glocal='git config --local user.name "rageblob"
+git config --local user.email "39024407+rageblob@users.noreply.github.com"
+git config --local user.signinkey "rageblob-github"
+'
+
+# Kubernetes
+alias k='kubectl'
+alias kg='kubectl get'
+alias kgn='kubectl get nodes'
+alias kgp='kubectl get pods'
+alias python='python3'
+alias py='python3'
+alias p='python3'
+alias pip='pip3'
+
+# Terraform
+alias tf='terraform'
+alias tfi='terraform init'
+alias tfp='terraform plan'
+alias tfa='terraform apply'
+alias tfs='terraform state'
+alias tg='terragrunt'
+alias tgi='terragrunt init'
+alias tgp='terragrunt plan'
+alias tga='terragrunt apply'
+alias tgs='terragrunt state'
+
+# Direnv
+alias da='direnv allow .'
+
