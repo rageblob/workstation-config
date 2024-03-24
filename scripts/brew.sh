@@ -12,9 +12,9 @@ brew tap homebrew/cask-fonts
 brew update
 
 # install formulae (terminal programs)
-cat $(PWD)/brew/formulae | xargs brew install --formula
+cat $(PWD)/src/brew/formulae | xargs brew install --formula
 # install casks (full featured standalone GUI programs)
-cat $(PWD)/brew/casks | xargs brew install --cask
+cat $(PWD)/src/brew/casks | xargs brew install --cask
 
 # make sure everything is up to date
 brew upgrade
