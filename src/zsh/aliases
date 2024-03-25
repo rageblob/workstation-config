@@ -24,6 +24,7 @@ alias gpt='git push origin --tags'
 alias gr='git rebase'
 alias gri='git rebase --interactive'
 alias gs='git status'
+alias gt='git tag'
 alias gcll='g config --list --local'
 alias gcl='g config --local'
 alias glocal='git config --local user.name "rageblob"
