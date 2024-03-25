@@ -33,6 +33,11 @@ The mappings in `src/iTerm2/GermanKeyboardLayout.itermkeymap` affect the followi
 - **Cmd + Left/Right Arrow**: Move cursor to beginning/end of line
 - **Cmd + Z**: Undo
 
+#### How to use
+
+In iTerm, press `Cmd + ,` to open settings. Go to the Profiles pane and select `Keys`, then select the `Key Mappings` pane.
+At the bottom of the window go to `Presets...`, click `Import...` and select `GermanKeyboardLayoutFix.itermkeymap`.
+
 ### Color schemes
 
 `src/iTerm2/` contains custom color schemes for iTerm2.
