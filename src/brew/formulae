@@ -13,6 +13,7 @@ ca-certificates
 certifi
 cffi
 cmake
+croc
 curl
 direnv
 docutils
