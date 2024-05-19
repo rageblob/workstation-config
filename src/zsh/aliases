@@ -9,9 +9,11 @@ alias v='vim'
 alias nv='nvim'
 
 # Git
+alias g='git'
 alias lg='lazygit'
 alias gb='git branch'
 alias gba='git branch --all'
+alias gd='git diff'
 alias gs='git status'
 alias gg='git log'
 alias ggg='git log --graph'
