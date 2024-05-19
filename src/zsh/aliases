@@ -8,6 +8,13 @@ alias e='exit'
 alias v='vim'
 alias nv='nvim'
 
+# Python
+alias p='python3'
+alias py='python3'
+alias pv='python3 -m venv ./'
+alias pa='activate'
+alias de='deactivate'
+
 # Git
 alias g='git'
 alias lg='lazygit'
