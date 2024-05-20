@@ -65,4 +65,3 @@ alias tgs='terragrunt state'
 
 # Direnv
 alias da='direnv allow .'
-
