@@ -3,6 +3,7 @@ alias la='ls -lAh'
 alias fman='compgen -c | fzf | xargs man'
 alias tm='tmux'
 alias e='exit'
+alias rg='ripgrep'
 
 # Vim & NeoVim
 alias v='vim'
@@ -13,6 +14,7 @@ alias p='python3'
 alias py='python3'
 alias pv='python3 -m venv ./'
 alias pa='activate'
+alias ac='activate'
 alias de='deactivate'
 
 # Git
