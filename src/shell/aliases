@@ -60,6 +60,7 @@ alias tfi='terraform init'
 alias tfp='terraform plan'
 alias tfa='terraform apply'
 alias tfs='terraform state'
+# Terragrunt
 alias tg='terragrunt'
 alias tgi='terragrunt init'
 alias tgp='terragrunt plan'
