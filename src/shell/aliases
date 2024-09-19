@@ -68,3 +68,11 @@ alias tgs='terragrunt state'
 
 # Direnv
 alias da='direnv allow .'
+
+# Ansible
+alias a='ansible'
+alias ac='ansible-console'
+alias ad='ansible-doc'
+alias ag='ansible-galaxy'
+alias ap='ansible-playbook'
+alias al='ansible-pull'
