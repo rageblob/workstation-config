@@ -102,6 +102,7 @@ readline
 ripgrep
 rtmpdump
 six
+starship
 sqlite
 terminal-notifier
 terraform
