@@ -1,8 +1,10 @@
 # Quality of life
+alias l='ls -lh'
 alias la='ls -lAh'
 alias fman='compgen -c | fzf | xargs man'
 alias tm='tmux'
 alias e='exit'
+alias q='exit'
 
 # Vim & NeoVim
 alias v='vim'
