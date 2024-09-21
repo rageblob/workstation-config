@@ -1,0 +1,8 @@
+awscli
+k9s
+kubernetes-cli
+terraform
+terraform-ls
+terragrunt
+tflint
+virtualenv
