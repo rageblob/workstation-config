@@ -37,7 +37,6 @@ jansson
 jpeg-turbo
 jpeg-xl
 krb5
-lazygit
 libassuan
 libavif
 libevent
@@ -104,6 +103,4 @@ utf8proc
 webp
 xwmx/taps/nb
 xz
-zsh-completions
-zsh-syntax-highlighting
 zstd
