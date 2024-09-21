@@ -4,7 +4,8 @@ init_shell:
 	./scripts/shell_config.sh
 
 brew:
-	./scripts/brew.sh
+	./scripts/brew/brew.sh
+	./scripts/brew/install_pkgs.sh
 
 test:
 	./scripts/test.sh
