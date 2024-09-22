@@ -1,7 +1,7 @@
 @default: init_shell
 
 init_shell:
-	./scripts/shell_config.sh
+	./scripts/zsh_config.sh
 
 brew:
 	./scripts/brew/brew.sh

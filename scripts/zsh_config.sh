@@ -3,7 +3,7 @@
 # create zsh config folder if it doesn't exist
 # otherwise create a backup
 if ! [[ -d "$HOME/.config/zsh" ]]; then
-  mkdir $HOME/.config/zsh/
+  mkdir -p $HOME/.config/zsh/
 else
   mv $HOME/.config/zsh{,.bak}
 fi
