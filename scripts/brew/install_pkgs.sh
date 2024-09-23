@@ -4,3 +4,5 @@
 cat $(PWD)/var/pkgs/brew/formulae | xargs brew install --formula
 # install casks (full featured standalone GUI programs)
 cat $(PWD)/var/pkgs/brew/casks | xargs brew install --cask
+# install NerdFonts
+cat $(PWD)/var/pkgs/fonts | xargs brew install --cask
