@@ -56,6 +56,21 @@ git config --local user.email "39024407+rageblob@users.noreply.github.com"
 git config --local user.signinkey "rageblob-github"
 '
 
+# Docker
+alias d='docker'
+alias dps='docker ps'
+alias dpa='docker ps -a'
+alias dim='docker images'
+alias drm='docker rm'
+alias dprune='docker system prune -af'
+alias dimg='docker image prune -af'
+alias dcu='docker-compose up -d'
+alias dcd='docker-compose down'
+alias dcl='docker-compose logs -f'
+alias dctop='docker-compose top' # inspect running processes of services
+alias dlog='docker logs'
+alias dinspect='docker inspect'
+
 # Kubernetes
 alias k='kubectl'
 alias kg='kubectl get'
