@@ -1,0 +1,3 @@
+---
+- name: init shell look and feel
+  ansible.builtin.script: $PWD/scripts/

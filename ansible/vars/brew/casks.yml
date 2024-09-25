@@ -1,0 +1,3 @@
+---
+casks: "{{ lookup('file', './../../../var/pkgs/brew/casks').splitlines() }}"
+formulae: "{{ lookup('file', './../../../var/pkgs/brew/formulae').splitlines() }}"

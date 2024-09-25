@@ -1,0 +1,26 @@
+---
+- name: Update homebrew
+  community.general.homebrew:
+    update_homebrew: true
+    upgrade_all: true
+
+- name: Install casks
+  community.general.homebrew:
+    name: "{{ item }}"
+    state: latest
+  with_items:
+    - cheatsheet
+    - docker
+    - font-fira-code-nerd-font
+    - font-jetbrains-mono-nerd-font
+    - font-sauce-code-pro-nerd-font
+    - font-symbols-only-nerd-font
+    - taskwarrior-pomodoro
+
+- name: Install formulae
+  community.general.homebrew:
+    name: "{{ item }}"
+    state: latest
+    force_formula: true
+  with_items:
+    - "{{ formulae }}"
