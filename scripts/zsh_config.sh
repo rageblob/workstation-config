@@ -9,7 +9,6 @@ else
 fi
 
 # link the config files to the zsh config folder
-ln $PWD/src/shell/aliases $HOME/.config/zsh/aliases
-ln $PWD/src/shell/env $HOME/.config/zsh/env
-ln $PWD/src/shell/zsh_cfg $HOME/.config/zsh/settings
-ln $PWD/src/shell/xdg_spec $HOME/.config/zsh/xdg_spec
+ln $PWD/src/cfg/shell/aliases $HOME/.config/zsh/aliases
+ln $PWD/src/cfg/shell/env $HOME/.config/zsh/env
+ln $PWD/src/cfg/shell/zsh_cfg $HOME/.config/zsh/settings
