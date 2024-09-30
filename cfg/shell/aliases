@@ -7,6 +7,8 @@ alias tma='tmux attach'
 alias ta='tmux attach'
 alias tmd='tmux detach'
 alias td='tmux detach'
+alias tms='tmux ls'
+alias tmk='tmux kill-session -t'
 alias e='exit'
 alias q='exit'
 
