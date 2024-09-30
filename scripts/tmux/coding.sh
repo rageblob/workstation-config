@@ -12,8 +12,6 @@ if [[ $? != 0 ]]; then
   tmux send-keys -t $SESSION:editor "nvim ." C-m
   # create second window
   tmux new-window -t $SESSION -n "home"
-  tmux send-keys -t $SESSION:home "cd ~" C-m
-  tmux send-keys -t $SESSION:home "clear" C-m
   # select first window
   tmux select-window -t $SESSION:editor
 fi
