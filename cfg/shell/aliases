@@ -22,8 +22,8 @@ alias py='python3'
 alias pv='python3 -m venv ./'
 alias pip='pip3'
 alias p3='pip3'
-alias pa='activate'
-alias ac='activate'
+alias pa='source ./bin/activate'
+alias ac='source ./bin/activate'
 alias de='deactivate'
 
 # Git
